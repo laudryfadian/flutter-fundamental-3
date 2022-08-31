@@ -3,4 +3,4 @@
 
 Gesture Detector
 
-![](assets/polinema.png)
+![](images/prak1.JPG)
