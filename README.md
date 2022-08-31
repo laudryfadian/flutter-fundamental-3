@@ -16,3 +16,9 @@ onDoubleTap
 onLongPress
 
 ![](images/prak1%20onLongPress.JPG)
+
+### Praktikum 2
+
+Input Widget
+
+![](images/prak2.JPG)
