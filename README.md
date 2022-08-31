@@ -22,3 +22,12 @@ onLongPress
 Input Widget
 
 ![](images/prak2.JPG)
+
+### Praktikum 3
+
+Custom Input dan FormField Widget
+
+![](images/prak3.JPG)
+
+![](images/prak3%201.JPG)
+
