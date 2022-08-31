@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_fundamental_3/basic_widgets/form_example.dart';
 import 'package:flutter_fundamental_3/basic_widgets/image_widget.dart';
 
 void main() {
@@ -44,24 +45,22 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: Text(widget.title),
         ),
-        body: Center(
-          child: GestureDetector(
-              onTap: _incrementCounter,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  const MyImageWidget(),
-                  Text(
-                    '$_counter',
-                    style: Theme.of(context).textTheme.headline4,
-                  ),
-                ],
-              )),
-        ),
+        body: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              const Text(
+                'You have pushed the button this many times:',
+              ),
+              Text(
+                '$_counter',
+                style: Theme.of(context).textTheme.headline4,
+              ),
+              const FormContoh(),
+            ]),
         floatingActionButton: FloatingActionButton(
           onPressed: _incrementCounter,
           tooltip: 'Increment',
-          child: const Icon(CupertinoIcons.heart_fill),
+          child: const Icon(CupertinoIcons.add),
         ));
   }
 }
